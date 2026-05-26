@@ -1,0 +1,46 @@
+{
+  "name": "todolist-12",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "tsc -b && vite build",
+    "test": "vitest",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 9009",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
+    "@mui/icons-material": "6.3.1",
+    "@mui/material": "6.3.1",
+    "@reduxjs/toolkit": "2.5.0",
+    "axios": "1.7.9",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-redux": "9.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^9.0.8",
+    "@storybook/addon-docs": "^8.6.15",
+    "@storybook/addon-essentials": "8.6.15",
+    "@storybook/addon-interactions": "8.6.15",
+    "@storybook/addon-links": "8.6.15",
+    "@storybook/blocks": "^8.6.15",
+    "@storybook/react": "8.6.15",
+    "@storybook/react-vite": "^8.6.15",
+    "@storybook/test": "8.6.15",
+    "@types/node": "22.10.6",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "@vitejs/plugin-react-swc": "3.7.2",
+    "globals": "15.14.0",
+    "prettier": "3.8.1",
+    "storybook": "^8.6.15",
+    "typescript": "5.7.3",
+    "vite": "6.0.7",
+    "vitest": "2.1.8"
+  }
+}
